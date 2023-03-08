@@ -51,6 +51,7 @@ def simple_or_compound():
 # подсказывать “больше” или “меньше” после каждой попытки. Для генерации случайного числа используйте код:
 # from random import randint
 # num = randint(LOWER_LIMIT, UPPER_LIMIT)
+
 def guess_the_number():
     number = randint(0, 1000)
     flag = False
